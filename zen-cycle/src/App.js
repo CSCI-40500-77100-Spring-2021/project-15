@@ -3,9 +3,9 @@ import './App.css';
 import GoogleMap from './components/GoogleMap';
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Feed from './pages/Feed'
+// import Feed from './pages/Feed'
 import About from './pages/About'
-// import Map from './map/Map';
+// import Map from './map/Map'
 class App extends Component {
     // constructor to initialize the default state
     constructor(props) {
@@ -32,7 +32,7 @@ class App extends Component {
                     <Navbar/>
                     <Switch>
                         <Route path='/' exact component={GoogleMap}/>
-                        <Route path='/feed' component={Feed}/>
+                        {/* <Route path='/feed' component={Feed}/> */}
                         <Route path='/about' component={About}/>
                     </Switch>
                 </Router>
