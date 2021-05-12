@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { MenuItems } from "./MenuItems"
 import './Navbar.css'
+import  { useAuth } from '../../contexts/AuthContext'
+
+function useCurrentUser() {  
+	const { currentUser } = useAuth()
+	return currentUser.email
+}
+
 class Navbar extends Component {
 	render() {
 		return(
