@@ -15,5 +15,5 @@ jobs:
         working-directory: zen-cycle/test
       - name: Run all the tests
         working-directory: zen-cycle/test
-        run: firebase emulators:exec 'npm test'
+        run: firebase emulators:exec --project zen-cycle-react 'npm test'
 
