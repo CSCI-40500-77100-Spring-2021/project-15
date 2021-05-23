@@ -30,3 +30,6 @@ Note: Before using this prototype, make sure Node. js is installed on your machi
 5. After, run `npm start`
 6. Once successfully compiled, the app will run at `http://localhost:3000/`
 7. Enjoy!
+
+##Testing Status of our project
+[![.github/workflows/firebase-ci.yaml](https://github.com/CSCI-40500-77100-Spring-2021/project-15/actions/workflows/firebase-ci.yaml/badge.svg)](https://github.com/CSCI-40500-77100-Spring-2021/project-15/actions/workflows/firebase-ci.yaml)
